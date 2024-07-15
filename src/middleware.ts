@@ -7,7 +7,7 @@ import { adminOnlyRoutes, normalUserRoutes, powerUserRestrictedRoutes, publicRou
 
 
 export async function middleware(request: NextRequest) {
-    return NextResponse.next();
+    // return NextResponse.next();
 
     const pathname = request.nextUrl.pathname;
     // loadSensors().catch(err => console.error('Failed to load sensors on startup:', err));
